@@ -2,4 +2,4 @@ import os
                                                                                                                                                                                                                                                                                                                              
 print("Tracing:", os.getenv("LANGCHAIN_TRACING_V2") or os.getenv("LANGSMITH_TRACING"))                                                                                                                                                                                                                                     
 print("API key set:", bool(os.getenv("LANGCHAIN_API_KEY") or os.getenv("LANGSMITH_API_KEY")))                                                                                                                                                                                                                              
-print("Project:", os.getenv("LANGCHAIN_PROJECT") or os.getenv("LANGSMITH_PROJECT")) 
+print("Project:", os.getenv("LANGSMITH_PROJECT")) 
